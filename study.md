@@ -1,6 +1,6 @@
 ##Grammars
-*Ambiguity 
-*Associativity
-*Precedence
-*BNF
-*Vocabulary
+* Ambiguity 
+* Associativity
+* Precedence
+* BNF
+* Vocabulary
