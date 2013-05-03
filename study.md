@@ -13,6 +13,26 @@ ex.
   e ::= e + e | e * e | n
   n ::= 0 | 1
   
+* Example of ambiguous grammar:
+t
   e ::= f && e | f
   f ::= t || f | t
   t = true | false
+
+  A := A & A | V                        
+  V := a | b
+  
+    A                     A
+  / | \                 / | \
+ A  &  A               A  &  A
+ |  |  | \          A & A    / 
+ a  &  a & a        a & a & a
+  
+The grammar above is ambiguous
+
+##Judgements
+
+
+ precedent
+-----------
+consequenct
