@@ -33,6 +33,6 @@ The grammar above is ambiguous
 ##Judgements
 
 
- precedent
------------
-consequenct
+  precedent    <--- If this is true
+'-----------'                                       '------------'  <---- Axiom
+ consequence   <--- Then so is this                   consequence
