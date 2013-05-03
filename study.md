@@ -33,6 +33,9 @@ The grammar above is ambiguous
 ##Judgements
 
 
-  precedent    <--- If this is true
-'-----------'                                       '------------'  <---- Axiom
- consequence   <--- Then so is this                   consequence
+precedent/consequence: If precedence is true, then consequence is also true
+
+/consequence: Axiom
+
+
+/(e1? e2: e3)
